@@ -1,0 +1,8 @@
+<h1>Create Table</h1>
+<table border="1">
+<tr bgcolor="aqua">
+<th width="250px" colspan="2"> Name </th>
+<th width="70px" rowspan="2"> Age </th>
+<th width="150px" rowspan="2"> Address </th>
+</tr>
+<tr>
