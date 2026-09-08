@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile {
+            width: 80%;
+            max-width: 700px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .course {
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .info p {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .skills {
+            margin-top: 25px;
+        }
+
+        .skill {
+            display: inline-block;
+            background-color: #e8eef7;
+            color: #345;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        footer {
+            margin-top: 25px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile">
+
+        <!-- Change profile.jpg to your own image -->
+        <img src="profile.jpg" alt="Student Profile Picture">
+
+        <h1>Your Name</h1>
+        <p class="course">Student | Your Grade & Section</p>
+
+        <div class="info">
+            <p><strong>Age:</strong> 15</p>
+            <p><strong>School:</strong> Your School Name</p>
+            <p><strong>Grade:</strong> Grade 10</p>
+            <p><strong>Section:</strong> Your Section</p>
+            <p><strong>Favorite Subject:</strong> Computer Science</p>
+        </div>
+
+        <div class="skills">
+            <h2>My Skills</h2>
+
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Drawing</span>
+        </div>
+
+        <footer>
+            © 2026 Your Name
+        </footer>
+
+    </div>
+
+</body>
+</html>
+```
